@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link href="https://fonts.<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Protest+Guerrilla&display=swap');
+    </style>googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Protest+Gu<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Protest+Guerrilla&display=swap" rel="stylesheet"errilla&display=swap" rel="stylesheet">
+  </head>
+  
+  <title>TEST</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 55px); /* 5 columns */
+            grid-template-rows: repeat(5, 55px);    /* 5 rows */
+            gap: 5px; /* Space between grid items */
+            justify-content: center; /* Center the grid horizontally */
+        }
+
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 20px;
+            border: 1px solid #333;
+            cursor: pointer; /* Change cursor to pointer */
+        }
+
+        .grid-item:hover {
+            background-color: #3e8e41; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>test1</h1>
+    <div class="grid-container">
+        <div class="grid-item" onclick="redirectToPage('page1.html')">1</div>
+        <div class="grid-item" onclick="redirectToPage('page2.html')">2</div>
+        <div class="grid-item" onclick="redirectToPage('page3.html')">3</div>
+        <div class="grid-item" onclick="redirectToPage('page4.html')">4</div>
+        <div class="grid-item" onclick="redirectToPage('page5.html')">5</div>
+        <div class="grid-item" onclick="redirectToPage('page6.html')">6</div>
+        <div class="grid-item" onclick="redirectToPage('page7.html')">7</div>
+        <div class="grid-item" onclick="redirectToPage('page8.html')">8</div>
+        <div class="grid-item" onclick="redirectToPage('page9.html')">9</div>
+        <div class="grid-item" onclick="redirectToPage('page10.html')">10</div>
+    </div>
+
+    <script>
+        // Redirect function
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+
+</body>
+</html>

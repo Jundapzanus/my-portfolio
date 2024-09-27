@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://assets.onecompiler.app/42r672t7q/42r65g84h/Oreo%20Standee.jpg);
+    background-size: cover; /* Adjusts the image to cover the entire background */
+    background-position: auto; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack the elements vertically */
+    text-align: center;
+    height: 100vh;
+}
+
+.shout {
+    font-family: 'Protest Guerrilla', sans-serif; /* Uses the Google Font */
+    font-size: 36px;
+    color: blue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 36px;
+    color: red;
+    margin: -3px 0;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align: center;
+    height: 155vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Classes for different colored text within the same paragraph */
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: green;
+}
+
+h1 {
+    font-size: 55px;
+    color:#98e2f1;
+    margin: -20px 0;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align: center;
+    height: 30vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    
+    font-size: 40px;
+    color: #00FF00;
+    margin: -2px 0;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    height:30vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    
+    font-size: 40px;
+    color: blue;
+    margin: 60px 0;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align: center;
+    font-weight: 900;
+    height: 40vh;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+button {
+    background-color: #FAEBD7;
+    color: black;
+    border: yes;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 15px 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    
+}
+
+.title {
+    margin-bottom: 5px; /* Reduces space below the <h2> */
+    font-family:"Courier New, monospace;
+}
+#currentTime {
+    color: #D2691E; /* Correct color code */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Protest Guerrilla", sans-serif; /* Removed italic and quotes */
+    font-style: italic; /* Added the correct property for italics */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
